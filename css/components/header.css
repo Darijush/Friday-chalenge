@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
 }
 .header:hover{
     position: absolute;
@@ -35,8 +35,6 @@ border: 2px solid #C4C4C4;
 .header:hover .break-line{
 width: 128.22px;
 height: 0px;
-left: 39px;
-top: 110.03px;
 border: 2px solid #C4C4C4;
 }
 
@@ -46,6 +44,18 @@ border: 2px solid #C4C4C4;
     text-align: center;
     align-items: center;
     background: #F7F6FF;
+    width: 90px;
+    height: 60px;
+}
+.header:hover .icons{
+    align-items: flex-start;
+    width: 195px;
+    margin-left: 11px;
+    justify-content: space-around;
+}
+.icons:active{
+    background: #fff;
+    border-radius: 0 0 5px 5px;
 }
 .iconlinks{
     text-decoration: none;
@@ -55,9 +65,14 @@ border: 2px solid #C4C4C4;
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
+    align-items: stretch;
+    gap: 19px;
+}
+.header:hover .iconlinks{
+    width: 100px;
+}
+.header:hover .iconlinks{
+    margin-left: 20px;
 }
 .iconimg{
     background: #F7F6FF;
