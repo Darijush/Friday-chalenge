@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Monserrat;
+    src: url(../../fonts/Montserrat-Regular.otf);
+}
 
 body,
 body * {
